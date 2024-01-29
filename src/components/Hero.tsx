@@ -30,7 +30,7 @@ export function Hero() {
           Create AI agents based on player on-chain historical actions.
         </p>
         <div className="mt-10 flex justify-center gap-x-6">
-          <Button href="/about">Learn More</Button>
+          <Button href="#features">Learn More</Button>
         </div>
       </Container>
     </div>
