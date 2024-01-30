@@ -7,35 +7,31 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotFPS from '@/images/screenshots/chainmyth.png'
+import screenshotNFL from '@/images/screenshots/NFL.png'
+import screenshotRPG from '@/images/screenshots/RPG.png'
+import screenshotStrategy from '@/images/screenshots/strategy.png'
 
 const features = [
   {
-    title: 'Payroll',
-    description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+    title: 'First-Person Shooters',
+    description: "Recreate player reaction time, accuracy and team-oriented strategic positioning.",
+    image: screenshotFPS,
   },
   {
-    title: 'Claim expenses',
-    description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+    title: 'Sports',
+    description: "Simulate in-game decision-making, responses to singular game events and dynamic team formations.",
+    image: screenshotNFL,
   },
   {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+    title: 'Role-Playing Games',
+    description: "Generate dynamic storylines and character interactions by analyzing players' past decisions to predict future choices, narrative paths, skill progression and combat dynamics.",
+    image: screenshotRPG,
   },
   {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+    title: 'Strategy',
+    description: 'Simulate tactical approaches, time- & resource-based resource and combat actions, and dynamic approaches to the game environemnt.',
+    image: screenshotStrategy, // Please update with an appropriate image related to Strategy AI
   },
 ]
 
@@ -76,11 +72,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Simulate any player off historical on-chain activity.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Provide the address of a player and game and select the simulated player as an opponent in your game.
           </p>
         </div>
         <Tab.Group
