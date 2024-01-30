@@ -6,9 +6,9 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotGovernance from '@/images/screenshots/governance.png'
+import screenshotUtility from '@/images/screenshots/utility.png'
+import screenshotTokenomics from '@/images/screenshots/tokenomics.png'
 
 interface Feature {
   name: React.ReactNode
@@ -20,11 +20,11 @@ interface Feature {
 
 const features: Array<Feature> = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Fixed Total Supply',
+    summary: 'No more tokens will be added to the circulating supply after launch.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: screenshotProfitLoss,
+      'The token launch will cover allocations for team, community, investors and initial project operations.',
+    image: screenshotTokenomics,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -54,12 +54,12 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Utility',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Fuel to create AI agents, and the exchange item for a market of agents.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: screenshotInventory,
+      'Create AI agents using the token as a base currency, use created agents in the market by paying with the token and receive token rewards when your agents are used.',
+    image: screenshotUtility,
     icon: function InventoryIcon() {
       return (
         <>
@@ -82,12 +82,12 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Governance',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Vote for the future of the project and the features you want to see.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: screenshotContacts,
+      'Staked tokens will be used to propose & vote for changes and additions to the project.',
+    image: screenshotGovernance,
     icon: function ContactsIcon() {
       return (
         <>
@@ -227,18 +227,17 @@ function FeaturesDesktop() {
 export function SecondaryFeatures() {
   return (
     <section
-      id="secondary-features"
-      aria-label="Features for simplifying everyday business tasks"
+      id="tokenomics"
+      aria-label="Token utility and supply expalined"
       className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            AI agent creation tokenomics.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Token utility centered on the creation of agents with a fixed total supply.
           </p>
         </div>
         <FeaturesMobile />
