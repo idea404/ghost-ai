@@ -6,53 +6,53 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'What is GhostAI?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'GhostAI is a cutting-edge platform that uses AI to recreate gaming experiences. By analyzing on-chain historical data, we allow players to generate AI "ghosts" to simulate real-player behavior in various games.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'How does GhostAI use historical data?',
+      answer:
+        "We analyze and process historical gaming data that's recorded on the blockchain to understand and simulate player behavior, creating a challenging and dynamic AI that mimics real opponents.",
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Which games are compatible with GhostAI?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        "Currently, GhostAI supports games that track player data on-chain. We're constantly expanding our library, so stay tuned for updates on supported games.",
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Can I use GhostAI to improve my gaming skills?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Absolutely! GhostAI provides a unique opportunity to practice against AI simulations of top players, allowing you to learn from the best and improve your gameplay.',
     },
     {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+      question: 'Is GhostAI token necessary to use the platform?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Yes, the GhostAI token is used as a utility token within our platform to create and interact with the AI ghosts, as well as access various features and services.',
     },
     {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+      question: 'How do I purchase GhostAI tokens?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        "GhostAI tokens can be purchased on supported cryptocurrency exchanges or directly through our platform. Please ensure you're using a reputable source to buy tokens.",
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'How can I create my own AI ghost?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'You can create your AI ghost by providing us with your historical gameplay data. Our algorithms will then process this data to create a ghost that plays just like you.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Is my gaming data safe with GhostAI?',
+      answer:
+        'We prioritize data security and privacy. Your data is encrypted and stored securely, only being used to enhance your gaming experience with GhostAI.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Can I trade or sell my AI ghost?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Yes, with GhostAI, your AI ghosts are your assets. You can trade or sell them on our platform, providing a new way for gamers to earn from their skills and strategies.',
     },
   ],
 ]
